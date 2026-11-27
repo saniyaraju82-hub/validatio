@@ -14,8 +14,8 @@ print("invalid phone number")
 log """
 payment successfull TXN12345
 payment failed TXN67890
-payment refund 
+payment refund TXN7890
 """
 ids=re.findall (r"TXN[0-9]+",log)
-print("transaction IDs:",result)
+print("transaction IDs:",ids)
 
